@@ -11,5 +11,8 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {
+    "pending-xhr-puppeteer": "^2.1.0"
   }
 }
