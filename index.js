@@ -52,9 +52,7 @@ require('dotenv').config();
             await page.click(BRANCH.time_line[i]);
             await page.waitFor(2000);
         }
-        //     const total_menu = document.querySelectorAll('#carteP005 dd .nb-p-04-detail .nb-p-04-02');
-        //     const total_detail = document.querySelector('#carteP005 dd .nb-p-04-detail .nb-p-04-03');
-        // });
+        
 
     }catch(err){
         console.error(err);
